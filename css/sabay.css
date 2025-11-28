@@ -31,6 +31,9 @@
   color: white;
   z-index: 1;
 }
+ul {
+  list-style-type: disc; /* Default bullet style */
+}
 * {
   padding: 0px;
   margin: 0px;
@@ -50,6 +53,20 @@ color: #575757;
 li a:hover{
   color:#393f44;
  }
+ .ref-box{
+  border: 1px solid rgb(85, 84, 84);
+  height: 80%;
+  width: 70%;
+  color: black;
+  border-radius: 10px;
+ }
+ .ref-box ul{
+  color: rgb(39, 39, 39);
+  padding: 10px;
+  line-height: 30px;
+  list-style-type:disc;
+  list-style-position: inside;
+ }
 .ff1 {
   font-family: "Dosis", sans-serif;
   font-optical-sizing: auto;
@@ -66,10 +83,16 @@ a{
 }
 .fs20 {
   font-size: 20px;
-  line-height: 30px;
+  line-height: 34px;
 }
 .fs22{
   font-size: 22px;
+}
+.fs28{
+  font-size: 28px;
+}
+.fs38{
+  font-size: 38px;
 }
 .top-menu-wrap {
   width: 100%;
@@ -130,7 +153,7 @@ a{
   width: 1170px;
 }
 .mid-content {
-  width: 1440px;
+  width: 70%px;
   height: 440px;
   /* background-color: violet; */
   display: grid;
@@ -304,7 +327,7 @@ a{
 .content-ttl {
   color: #ffffff;
   height: 150px;
-  width: 275px;
+  width: 600px;
   /* background-color: #DDE7EE; */
   /* display: flex; */
   /* align-items: center; */
@@ -318,7 +341,7 @@ a{
 
 .hover:hover > .content-ttl {
   /* transition: .6s; */
-  top: 90px;f
+  top: 90px;
 }
 
 .grid-item:hover .p2 {
@@ -368,18 +391,20 @@ a{
     rgba(52, 51, 51, 0.705) 100%
   );
 }
-
+.body{
+      background: #e7e7e7;
+}
 .p1 {
   font-size: 26px;
-  text-shadow: 2px 2px 2px rgba(26, 26, 26, 0.8);
+  text-shadow: 2px 2px 2px rgba(7, 7, 7, 0.8);
   font-family: "Lato", sans-serif;
   transition-duration: 0.5s;
   width: 240px;
 }
 
 .p2 {
-  font-size: 16px;
-  text-shadow: 2px 2px 2px rgba(26, 26, 26, 0.8);
+  font-size: 36px;
+  text-shadow: 2px 2px 2px rgba(53, 51, 51, 0.8);
   font-family: "Lato", sans-serif;
   position: absolute;
   /* bottom: -60px; */
@@ -387,6 +412,7 @@ a{
   transition: 0.4s;
   margin-top: 50px; 
   line-height: 28px;
+  color: #ffffff;
 }
 
 .top-menu {
@@ -671,11 +697,6 @@ li a i{
 .brown_ttl {
   color: #575757;
   font-family: "Lato", sans-serif;
-  font-size: 38px;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
 }
 .sub-ttl{
   color: #575757;

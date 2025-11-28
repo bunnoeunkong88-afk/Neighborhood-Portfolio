@@ -68,6 +68,7 @@
   .mid-menu-wrap{
     height: 400px;
     padding-bottom: 0;
+    margin-top: 0px;
   }
   .below-gray-bg {
     height: 348px;
@@ -95,6 +96,9 @@
 }
 .footer{
   width: 100%;
+}
+.mid-c-grid2{
+  max-width: 877.5px;
 }
 
 
